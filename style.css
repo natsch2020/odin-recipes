@@ -1,0 +1,43 @@
+h1{
+    font-weight: 500;
+    color: aqua;
+    font-size: 40px;
+}
+
+img{
+    height: auto;
+    width: 500px;
+}
+
+a{
+    color: black;
+    font-size: 25px;
+}
+
+h3{
+    font-weight: 500;
+    color: green;
+    font-size: 30px;
+}
+
+h5{
+    font-weight: 500;
+    color: orangered;
+    font-size: 25px;
+}
+
+#Index_list > li{
+    list-style-position: inside;
+    border-bottom: 5px solid red;
+}
+
+#Index_list{
+    border: 5px solid red;
+    list-style-position: inside;
+    padding: 0;
+    list-style-type: none;
+}
+
+#Index_list > li:last-child{
+    border-bottom: none;
+}
